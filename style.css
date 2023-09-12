@@ -1,0 +1,22 @@
+.aside-der {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100%;
+    width: 20vw;
+    background-color: #49874C;
+}
+.aside-der .titulo{
+    width: 80%;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px;
+    color: #1B331C;
+}
+.cajas-drones{
+    margin: 20px;
+    text-align: justify;
+}
+.cajas-drones img{
+    width: 200px;
+    align-items: center;
+}
