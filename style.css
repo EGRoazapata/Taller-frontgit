@@ -1,34 +1,46 @@
 footer {
-    height: 20vh;
+    height: 35vh;
     background-color: grey;
     background-size: cover;
+    margin: auto;
+    padding: auto;
 }
 .row1 {
     background-color: grey;
     color: white;
     display: inline-block;
+    vertical-align: top;
     width: 33%;
+    height: 35vh;
 }
 .row2 {
     background-color: grey;
     color: white;
     display: inline-block;
+    vertical-align: top;
     width: 33%;
+    height: 35vh;
 }
 .row3 {
     background-color: grey;
     color: white;
     display: inline-block;
+    vertical-align: top;
     width: 33%;
+    height: 35vh;
 }
 h2 {
     font-size: 3vh;
     padding: 2vh;
 }
+hr {
+    width: 52vh;
+}
 .a {
     font-size: 2vh;
     color: white;
     padding: 1vh;
+    text-align: left;
 }
 li { 
     list-style-type: none;
