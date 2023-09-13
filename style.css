@@ -1,7 +1,7 @@
 .primparte{
     background-color: #61af65;
     width: 80vw;
-    height: 289vh;
+    height: 285vh;
     font-family: 'Times New Roman', Times, serif;
     display: inline-block;
     font-size: 20px;
@@ -15,7 +15,7 @@ img{
 }
 .aside-der {
     color: rgb(255, 255, 255);
-    height: 289vh;
+    height: 285vh;
     width: 19vw;
     background-color: #49874C;
     display: inline-block;
