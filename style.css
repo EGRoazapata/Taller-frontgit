@@ -5,6 +5,7 @@ footer {
     margin: auto;
     padding: auto;
 }
+
 .row1 {
     background-color: grey;
     color: white;
@@ -13,6 +14,7 @@ footer {
     width: 33%;
     height: 35vh;
 }
+
 .row2 {
     background-color: grey;
     color: white;
@@ -21,6 +23,7 @@ footer {
     width: 33%;
     height: 35vh;
 }
+
 .row3 {
     background-color: grey;
     color: white;
@@ -33,22 +36,24 @@ h2 {
     font-size: 3vh;
     padding: 2vh;
 }
-hr {
-    width: 52vh;
-}
+
 .a {
     font-size: 2vh;
     color: white;
     padding: 1vh;
     text-align: left;
 }
-li { 
+
+li {
     list-style-type: none;
 }
+
 p {
     font-size: 1.5vh;
+    padding: 0.5vh;
 }
-.primparte{
+
+.primparte {
     background-color: #61af65;
     width: 80vw;
     height: 289vh;
@@ -56,13 +61,16 @@ p {
     display: inline-block;
     font-size: 20px;
 }
-.textomain{
+
+.textomain {
     text-align: justify;
     margin: 30px;
 }
-img{
+
+img {
     width: 80%;
 }
+
 .aside-der {
     color: rgb(255, 255, 255);
     height: 289vh;
@@ -71,19 +79,22 @@ img{
     display: inline-block;
     position: absolute;
 }
-.aside-der .titulo{
+
+.aside-der .titulo {
     width: 80%;
     font-size: 80px;
     text-align: center;
     margin: 20px;
     color: #1B331C;
 }
-.cajas-drones{
+
+.cajas-drones {
     margin: 20px;
     text-align: justify;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.cajas-drones img{
+
+.cajas-drones img {
     width: 200px;
     align-items: center;
     margin-top: 70px;
