@@ -1,18 +1,22 @@
 .primparte{
     background-color: #61af65;
-    width: 78vw;
+    width: 80vw;
+    height: 289vh;
     font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
     display: inline-block;
     font-size: 20px;
+}
+.textomain{
+    text-align: justify;
+    margin: 30px;
 }
 img{
     width: 80%;
 }
 .aside-der {
     color: rgb(255, 255, 255);
-    height: 100%;
-    width: 20vw;
+    height: 289vh;
+    width: 19vw;
     background-color: #49874C;
     display: inline-block;
     position: absolute;
@@ -32,4 +36,6 @@ img{
 .cajas-drones img{
     width: 200px;
     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
