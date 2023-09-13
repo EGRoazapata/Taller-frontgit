@@ -1,40 +1,48 @@
-footer {
-    height: 20vh;
-    background-color: grey;
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: gray;
     background-size: cover;
+    justify-content: space-between;
+    padding: 5px;
+    height: 8vh;
 }
-.row1 {
-    background-color: grey;
-    color: white;
-    display: inline-block;
-    width: 33%;
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
 }
-.row2 {
-    background-color: grey;
-    color: white;
-    display: inline-block;
-    width: 33%;
+a{
+    text-decoration: none;
+    color: black;
 }
-.row3 {
-    background-color: grey;
-    color: white;
-    display: inline-block;
-    width: 33%;
+nav ul li{
+    margin: 30px;
+    border-radius: 40px;
+    cursor: pointer;
 }
-h2 {
-    font-size: 3vh;
-    padding: 2vh;
+nav a:hover{
+    color: aliceblue;
 }
-.a {
-    font-size: 2vh;
-    color: white;
-    padding: 1vh;
+.boton-inicio{
+    border-radius: 40px;
+    cursor: pointer;
 }
-li { 
-    list-style-type: none;
+.boton-acerca-de{
+    border-radius: 40px;
+    cursor: pointer;
 }
-p {
-    font-size: 1.5vh;
+.boton-caracteristicas{
+    border-radius: 40px;
+     cursor: pointer;
+}
+.boton-contacto{
+    border-radius: 40px;
+     cursor: pointer;
 }
 .primparte{
     background-color: #61af65;
@@ -76,4 +84,50 @@ img{
     align-items: center;
     margin-top: 70px;
     margin-bottom: 90px;
+}
+footer {
+    height: 20vh;
+    background-color: grey;
+    background-size: cover;
+}
+.row1 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row2 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row3 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+h2 {
+    font-size: 3vh;
+    padding: 2vh;
+}
+.a {
+    font-size: 2vh;
+    color: white;
+    padding: 1vh;
+}
+li { 
+    list-style-type: none;
+}
+p {
+    font-size: 1.5vh;
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
 }
