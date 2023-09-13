@@ -1,59 +1,25 @@
-.Guatavita {
-    width: 100%;
-}
-
-.monserrate {
-    width: 100%;
-}
-
-.tequendama {
-    width: 100%;
-}
-
-.section1 {
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    padding: 1%;
-    text-align: center;
-    width: 70%;
+.primparte{
+    background-color: #61af65;
+    width: 80vw;
+    height: 289vh;
     font-family: 'Times New Roman', Times, serif;
-    
+    display: inline-block;
+    font-size: 20px;
 }
-
-.section2 {
-
-    background-color: rgb(255, 255, 255);
-    padding: 1%;
-    text-align: center;
-    width: 70%;
-    font-family: 'Times New Roman', Times, serif
-
+.textomain{
+    text-align: justify;
+    margin: 30px;
 }
-
-.section3 {
-
-    background-color: rgb(255, 255, 255);
-    padding: 1%;
-    text-align: center;
-    width: 70%;
-    font-family: 'Times New Roman', Times, serif
+img{
+    width: 80%;
 }
-
-.section4 {
-
-    background-color: rgb(255, 255, 255);
-    padding: 1%;
-    text-align: center;
-    width: 70%;
-    font-family: 'Times New Roman', Times, serif
-}
-
 .aside-der {
     color: rgb(255, 255, 255);
-    display: inline-block;
-    height: 100%;
-    width: 20vw;
+    height: 289vh;
+    width: 19vw;
     background-color: #49874C;
+    display: inline-block;
+    position: absolute;
 }
 .aside-der .titulo{
     width: 80%;
@@ -65,8 +31,11 @@
 .cajas-drones{
     margin: 20px;
     text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .cajas-drones img{
     width: 200px;
     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 90px;
 }
