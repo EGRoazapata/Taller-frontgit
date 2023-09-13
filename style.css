@@ -85,6 +85,44 @@ img{
     margin-top: 70px;
     margin-bottom: 90px;
 }
+footer {
+    height: 20vh;
+    background-color: grey;
+    background-size: cover;
+}
+.row1 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row2 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row3 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+h2 {
+    font-size: 3vh;
+    padding: 2vh;
+}
+.a {
+    font-size: 2vh;
+    color: white;
+    padding: 1vh;
+}
+li { 
+    list-style-type: none;
+}
+p {
+    font-size: 1.5vh;
+}
 @media (max-width:700px) {
     header{
         flex-direction: column;
