@@ -109,7 +109,7 @@ button {
     height: 3vh;
     float: right;
     margin: auto;
-    background-color: darkblue;
+    background-color: black;
     color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 10px;
 }
