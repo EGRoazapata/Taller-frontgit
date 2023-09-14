@@ -101,3 +101,15 @@ img {
     margin-top: 70px;
     margin-bottom: 90px;
 }
+.navbottom {
+    background-color: darkgreen;
+    height: 3vh;
+}
+button {
+    height: 3vh;
+    float: right;
+    margin: auto;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
