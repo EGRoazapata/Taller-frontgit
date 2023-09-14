@@ -4,11 +4,21 @@ body{
 }
 header{
     display: flex;
-    background-color: gray;
+    background-color: #A2FF86;
     background-size: cover;
     justify-content: space-between;
     padding: 5px;
     height: 8vh;
+}
+.imagen-icono{
+    display: flex;
+    border-radius: 40px;
+    width: 60px;
+    margin-left: 10px;
+}
+.titulo-header{
+    display: flex;
+    margin: auto;
 }
 nav ul{
     list-style: none;
@@ -21,7 +31,7 @@ a{
     color: black;
 }
 nav ul li{
-    margin: 30px;
+    margin: 10px;
     border-radius: 40px;
     cursor: pointer;
 }
