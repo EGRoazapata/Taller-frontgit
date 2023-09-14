@@ -1,3 +1,50 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: #1B331C;
+    justify-content: space-between;
+    padding: 5px;
+    height: 10vh;
+}
+.imagen-header{
+    border-radius: 120px;
+    background-color: #578945;
+    justify-content: start;
+    margin-top: 10px;
+    height: 40px;
+    width: 60px;
+    margin-left: 80px;
+}
+.titulo-principal{
+    margin: 0;
+    position: relative;
+    left: auto;
+    margin-top: 15px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin:0%
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    margin: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+nav a:hover{
+    color: aliceblue;
+}
+
 footer {
     height: 35vh;
     background-color: grey;
