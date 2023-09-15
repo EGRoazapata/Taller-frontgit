@@ -4,14 +4,14 @@ body{
 }
 header{
     display: flex;
-    background-color: #1B331C;
+    background-color: #3f8541;
     justify-content: space-between;
     padding: 5px;
     height: 10vh;
 }
 .imagen-header{
     border-radius: 120px;
-    background-color: #578945;
+    background-color: #2f4b24;
     justify-content: start;
     margin-top: 10px;
     height: 40px;
