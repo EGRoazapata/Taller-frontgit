@@ -1,13 +1,13 @@
 footer {
     height: 35vh;
-    background-color: grey;
+    background-color: black;
     background-size: cover;
     margin: auto;
     padding: auto;
 }
 
 .row1 {
-    background-color: grey;
+    background-color: black;
     color: white;
     display: inline-block;
     vertical-align: top;
@@ -16,7 +16,7 @@ footer {
 }
 
 .row2 {
-    background-color: grey;
+    background-color: black;
     color: white;
     display: inline-block;
     vertical-align: top;
@@ -25,7 +25,7 @@ footer {
 }
 
 .row3 {
-    background-color: grey;
+    background-color: black;
     color: white;
     display: inline-block;
     vertical-align: top;
@@ -102,7 +102,7 @@ img {
     margin-bottom: 90px;
 }
 .navbottom {
-    background-color: darkgreen;
+    background-color: CCC8AA;
     height: 3vh;
 }
 button {
