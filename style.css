@@ -11,7 +11,7 @@ footer {
     color: white;
     display: inline-block;
     vertical-align: top;
-    width: 33%;
+    width: 30vw;
     height: 35vh;
 }
 
@@ -20,16 +20,7 @@ footer {
     color: white;
     display: inline-block;
     vertical-align: top;
-    width: 33%;
-    height: 35vh;
-}
-
-.row3 {
-    background-color: black;
-    color: white;
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
+    width: 30vw;
     height: 35vh;
 }
 
