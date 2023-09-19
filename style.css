@@ -8,12 +8,16 @@ img {
     text-shadow: 0px 5px 7px #7D7C7C;
 }
 
+body{
+    height: 70vh;
+    width: 172vh;
+}
+
 .section1 {
     font-size: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: #F1EFEF;
     padding: 1%;
-    text-align: center;
-    width: 70%;
+    text-align: center;  
     font-family: 'Times New Roman', Times, serif;
 
 
@@ -21,10 +25,9 @@ img {
 
 .section2 {
 
-    background-color: rgb(255, 255, 255);
+    background-color: #F1EFEF;
     padding: 1%;
     text-align: center;
-    width: 70%;
     font-family: 'Times New Roman', Times, serif;
 
 
@@ -32,20 +35,18 @@ img {
 
 .section3 {
 
-    background-color: rgb(255, 255, 255);
+    background-color: #F1EFEF;
     padding: 1%;
     text-align: center;
-    width: 70%;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
 .section4 {
 
-    background-color: rgb(255, 255, 255);
+    background-color: #F1EFEF;
     padding: 1%;
     text-align: center;
-    width: 70%;
     font-family: 'Times New Roman', Times, serif;
 
 }
