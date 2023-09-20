@@ -46,49 +46,40 @@ nav a:hover{
 }
 
 footer {
-    height: 35vh;
-    background-color: black;
+    height: 20vh;
+    background-color: #191717;
     background-size: cover;
     margin: auto;
     padding: auto;
 }
 
 .row1 {
-    background-color: black;
-    color: white;
+    background-color: #191717;
+    color: "#CCC8AA";
     display: inline-block;
     vertical-align: top;
-    width: 33%;
-    height: 35vh;
+    width: 30vw;
+    height: 20vh;
 }
 
 .row2 {
-    background-color: black;
-    color: white;
+    background-color: #191717;
+    color: #CCC8AA;
     display: inline-block;
     vertical-align: top;
-    width: 33%;
-    height: 35vh;
-}
-
-.row3 {
-    background-color: black;
-    color: white;
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
-    height: 35vh;
+    width: 30vw;
+    height: 20vh;
 }
 
 h2 {
     font-size: 3vh;
-    padding: 2vh;
+    padding: 1vh;
+    color: #CCC8AA;
 }
 
 .a {
     font-size: 2vh;
-    color: white;
-    padding: 1vh;
+    color: #CCC8AA;
     text-align: left;
 }
 
@@ -101,6 +92,19 @@ p {
     padding: 0.5vh;
 }
 
+.navbottom {
+    background-color: #191717;
+    height: 3vh;
+}
+
+button {
+    height: 3vh;
+    float: right;
+    margin: auto;
+    background-color: #CCC8AA;
+    color: #191717;
+    border-radius: 10px;
+}
 .primparte {
     background-color: #61af65;
     width: 80vw;
@@ -147,16 +151,4 @@ img {
     align-items: center;
     margin-top: 70px;
     margin-bottom: 90px;
-}
-.navbottom {
-    background-color: CCC8AA;
-    height: 3vh;
-}
-button {
-    height: 3vh;
-    float: right;
-    margin: auto;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 10px;
 }
