@@ -8,7 +8,7 @@ footer {
 
 .row1 {
     background-color: #191717;
-    color: white;
+    color: "#CCC8AA";
     display: inline-block;
     vertical-align: top;
     width: 30vw;
@@ -17,7 +17,7 @@ footer {
 
 .row2 {
     background-color: #191717;
-    color: white;
+    color: #CCC8AA;
     display: inline-block;
     vertical-align: top;
     width: 30vw;
@@ -27,11 +27,12 @@ footer {
 h2 {
     font-size: 3vh;
     padding: 1vh;
+    color: #CCC8AA;
 }
 
 .a {
     font-size: 2vh;
-    color: white;
+    color: #CCC8AA;
     text-align: left;
 }
 
