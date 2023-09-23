@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: sans-serif;
     margin: 0;
@@ -29,7 +35,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin:0%
+    margin:0%;
     margin-top: 20px;
 }
 a{
@@ -104,7 +110,7 @@ p {
 .primparte {
     background-color: #61af65;
     width: 80vw;
-    height: 289vh;
+    height: 285vh;
     font-family: 'Times New Roman', Times, serif;
     display: inline-block;
     font-size: 20px;
@@ -119,34 +125,90 @@ img {
     width: 80%;
 }
 
-.aside-der {
-    color: rgb(255, 255, 255);
-    height: 289vh;
-    width: 19vw;
-    background-color: #49874C;
-    display: inline-block;
-    position: absolute;
-}
-
-.aside-der .titulo {
-    width: 80%;
-    font-size: 80px;
+.drones h2{
     text-align: center;
-    margin: 20px;
-    color: #1B331C;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
 }
 
-.cajas-drones {
+.card{
+    width: 22%;
     margin: 20px;
-    text-align: justify;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 6px;
+    display: inline-block;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+}
+.card .contenido h3{
+    margin-bottom: 15px;
 }
 
-.cajas-drones img {
-    width: 200px;
-    align-items: center;
-    margin-top: 70px;
-    margin-bottom: 90px;
+footer {
+    height: 20vh;
+    background-color: grey;
+    background-size: cover;
+}
+.row1 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row2 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+.row3 {
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    width: 33%;
+}
+h2 {
+    font-size: 3vh;
+    padding: 2vh;
+}
+.a {
+    font-size: 2vh;
+    color: white;
+    padding: 1vh;
+}
+li { 
+    list-style-type: none;
+}
+p {
+    font-size: 1.5vh;
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
 }
 .navbottom {
     background-color: CCC8AA;
