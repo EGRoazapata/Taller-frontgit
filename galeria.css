@@ -1,0 +1,42 @@
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 20px #191717;
+}
+
+.h {
+    text-shadow: 0px 5px 7px #7D7C7C;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section1 {
+    font-size: 20px;
+    background-color: #F1EFEF;
+    padding: 1%;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
