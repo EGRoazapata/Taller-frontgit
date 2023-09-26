@@ -4,9 +4,11 @@ img {
     box-shadow: 0px 10px 20px #191717;
 }
 
+
 .h {
     text-shadow: 0px 5px 7px #7D7C7C;
 }
+
 
 body {
     height: auto;
@@ -18,10 +20,10 @@ body {
     font-size: 20px;
     background-color: #F1EFEF;
     padding: 1%;
-    text-align: center;  
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 
-    
+
 
 }
 
@@ -58,19 +60,21 @@ body {
 }
 
 @media (max-width: 768px) {
-    .section1, .section2, .section3, .section4 {
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
         padding: 2%;
     }
 }
 
 @media (min-width: 769px) {
-    .section1, .section2, .section3, .section4 {
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
         padding: 1%;
     }
 }
-
-
-
-
-
-
