@@ -107,14 +107,7 @@ p {
     padding: 0.5vh;
 }
 
-.primparte {
-    background-color: #61af65;
-    width: 80vw;
-    height: 285vh;
-    font-family: 'Times New Roman', Times, serif;
-    display: inline-block;
-    font-size: 20px;
-}
+
 
 .textomain {
     text-align: justify;
@@ -122,7 +115,7 @@ p {
 }
 
 img {
-    width: 80%;
+    width: 95%;
 }
 
 .drones h2{
@@ -221,4 +214,89 @@ button {
     background-color: black;
     color: whitesmoke;
     border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 20px #191717;
+}
+
+
+.h {
+    text-shadow: 0px 5px 7px #7D7C7C;
+}
+
+
+body {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden
+}
+
+.section1 {
+    font-size: 20px;
+    background-color: #F1EFEF;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+
+.section2 {
+    
+    background-color: #F1EFEF;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.section3 {
+
+    background-color: #F1EFEF;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.section4 {
+
+    background-color: #F1EFEF;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.caja {
+    box-shadow: 0px 10px 20px #7D7C7C;
+}
+
+@media (max-width: 768px) {
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        padding: 2%;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        padding: 1%;
+    }
+}
+
+p{
+    font-size: 15px;
 }
