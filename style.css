@@ -115,7 +115,7 @@ p {
 }
 
 img {
-    width: 80%;
+    width: 95%;
 }
 
 .drones h2{
@@ -246,7 +246,7 @@ body {
 }
 
 .section2 {
-
+    
     background-color: #F1EFEF;
     padding: 1%;
     text-align: center;
@@ -295,4 +295,8 @@ body {
     .section4 {
         padding: 1%;
     }
+}
+
+p{
+    font-size: 15px;
 }
