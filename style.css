@@ -296,6 +296,11 @@ body {
         padding: 1%;
     }
 }
+@media (max-width:1472px){
+    .card{
+        margin-left: 15vw;
+    }
+}
 
 p{
     font-size: 15px;
