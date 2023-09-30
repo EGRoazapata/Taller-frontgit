@@ -19,11 +19,6 @@ body{
     color: aliceblue;
     margin-bottom: 20px;
 }
-.form-container p{
-    font-size: 18px;
-    color: #949FBD;
-    margin-bottom: 50px;
-}
 form{
     padding: 50px;
     background: linear-gradient(170deg, rgba(88,86,91,1) 0%, rgba(187,187,187,1) 60%, rgba(255,255,255,1) 100%);
