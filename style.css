@@ -304,25 +304,6 @@ p{
     font-size: 15px;
 }
 
-.btn-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 20px;
-    background-color: #191717;
-    color: #F1EFEF;
-    border: 2px solid #191717;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-    box-shadow: 0px 10px 20px #191717;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .btn-center:hover {
-    transform: scale(1.1);
-  }
+
 
   
