@@ -247,9 +247,11 @@ button {
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     box-shadow: 0px 10px 20px #191717;
+    border-radius: 10px;
+    
 }
 
 
@@ -305,6 +307,7 @@ body {
 
 .caja {
     box-shadow: 0px 10px 20px #7D7C7C;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -343,3 +346,7 @@ body {
 p{
     font-size: 15px;
 }
+
+
+
+  
