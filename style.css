@@ -60,21 +60,25 @@ nav a:hover{
 @media (max-width: 425px) {
     .imagen-header{
         width: 10vh;
-        margin-top: 10vh;
-        margin-left: 0px;
+        margin-left: 40vw;
     }
     .titulo-principal{
-        margin-left: 15vw;
-        text-align: center;
-        margin-top: 10vh;
+        margin: 0;
+        text-align: center; 
     }
     header{
-        flex-direction: row;
-        align-items: flex-start;
+        display: grid;
+        display: flex;
+        justify-content: space-between;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
         height: 35vh;
     }
     .ul-header{
-        flex-direction: column;
+        margin: 0;
+        flex-direction: row;
+        margin-right: 70px;
+        
     }
 }
 /* comienzo del footer  */
