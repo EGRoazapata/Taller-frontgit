@@ -14,7 +14,7 @@ html{
 header{
     position: fixed;
     display: flex;
-    background-color: #7D7C7C;
+    background: linear-gradient(45deg, #191717,#7D7C7C );
     justify-content: space-between;
     padding: 5px;
     height: 12vh;
@@ -38,7 +38,6 @@ header{
     margin-left: 12rem; 
 }
 .ul-header{
-    list-style: none;
     display: flex;
     justify-content: flex-end;
     margin:0%;
@@ -78,10 +77,17 @@ nav a:hover{
         margin: 0;
         flex-direction: row;
         margin-right: 70px;
-        
     }
 }
-/* comienzo del footer  */
+
+.footer{
+    display: flex;
+    background-color: #7D7C7C;
+    text-align: center;
+    justify-content: space-between;
+
+}
+/*  comienzo del footer   */
 
 footer {
     height: 35vh;
@@ -139,7 +145,7 @@ p {
     padding: 0.5vh;
 }
 
-
+ /* fin del footer  */
 
 .textomain {
     text-align: justify;
